@@ -1,7 +1,7 @@
 <?php 
     include_once("db.php");
     $data = mysqli_query($db, "SELECT * FROM table");
-    print($data);
+    print_r($data);
 ?>
 <table>
     <tr>
